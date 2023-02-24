@@ -31,7 +31,7 @@ public class LionDoesHaveManeTest {
     }
 
     @Test
-    public void checkThatLionThrowsOnUnknownSex() throws Exception {
+    public void checkThatLionThrowsOnUnknownSex() {
         assertThrows(
                 "Используйте допустимые значения пола животного - самец или самка",
                 Exception.class,

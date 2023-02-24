@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class getFamilyTest {
+public class GetFamilyTest {
 
     @Test
     public void checkThatGetFamilyReturnsTheCorrectString() {

@@ -21,7 +21,7 @@ public class PositiveAnimalTest {
     }
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         this.animal = new Animal();
     }
 

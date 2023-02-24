@@ -24,7 +24,7 @@ public class FelineGetKittensReturnKittensCountTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] FelineGetKittensReturnKittensCountTest() {
+    public static Object[][] felineGetKittensCountParams() {
         return new Object[][] {
                 { -5 },
                 { -1 },

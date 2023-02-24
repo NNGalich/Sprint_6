@@ -17,7 +17,7 @@ public class NegativeAnimalTest {
     }
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         this.animal = new Animal();
     }
 
@@ -30,7 +30,7 @@ public class NegativeAnimalTest {
     }
 
     @Test
-    public void shouldBeFood() throws Exception {
+    public void shouldBeFood() {
         assertThrows(
                 "Неизвестный вид животного, используйте значение Травоядное или Хищник",
                 Exception.class,
@@ -38,4 +38,3 @@ public class NegativeAnimalTest {
         );
     }
 }
-
